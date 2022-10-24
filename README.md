@@ -6,7 +6,7 @@
   
   - # 如何使用？
   -  nuget 安装  ```SocketExentd ```
-  - ``` dotnet add package SocketExentd --version 1.0.0 ```
+  - ``` dotnet add package SocketExentd --version 1.0.1 ```
   - # Example
   - 完整example 查看 [example](https://github.com/adminoryuan/SharpSocketExentd/blob/master/TestExentd/Example.cs)
   
