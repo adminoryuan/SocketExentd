@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SocketExentd/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SocketExentd.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocketExentd.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SocketExentd/1.0.0": {
+      "type": "project",
+      "path": "../SocketExentd/SocketExentd.csproj",
+      "msbuildProject": "../SocketExentd/SocketExentd.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SocketExentd >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/yh/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj",
+      "projectName": "TestExentd",
+      "projectPath": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj",
+      "packagesPath": "/home/yh/.nuget/packages/",
+      "outputPath": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/yh/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj": {
+              "projectPath": "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

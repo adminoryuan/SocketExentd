@@ -1,0 +1,12 @@
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/bin/Debug/net5.0/SocketExentd.deps.json
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/bin/Debug/net5.0/SocketExentd.dll
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/bin/Debug/net5.0/ref/SocketExentd.dll
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/bin/Debug/net5.0/SocketExentd.pdb
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.csprojAssemblyReference.cache
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.GeneratedMSBuildEditorConfig.editorconfig
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.AssemblyInfoInputs.cache
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.AssemblyInfo.cs
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.csproj.CoreCompileInputs.cache
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.dll
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/ref/SocketExentd.dll
+/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/Debug/net5.0/SocketExentd.pdb
