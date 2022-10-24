@@ -5,7 +5,7 @@
   - # 如何使用？
   -  nuget 安装 ``` SocketExentd ```
   - # Example
-  - 完整example 查看
+  - 完整example 查看 [example](https://github.com/adminoryuan/SharpSocketExentd/blob/master/TestExentd/Example.cs)
   
   
   - 接收数据
