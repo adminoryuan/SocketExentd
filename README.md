@@ -1,6 +1,6 @@
-# SharpSocketExentd
-  -  ![c#](https://img.shields.io/badge/c%23-8.0-red) ![netstandard2.1](https://img.shields.io/badge/netstandard-2.1-blue)
+# SharpSocketExentd ![c#](https://img.shields.io/badge/c%23-8.0-red) ![netstandard2.1](https://img.shields.io/badge/netstandard-2.1-blue)
 
+  
   - # 为什么需要它？
   - 当我们使用socket编写网络应用时,我们无法直接读取一个int byte long 等基础类型。SharpSocketExentd 对此进行了扩展。
   
