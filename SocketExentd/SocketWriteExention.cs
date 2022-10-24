@@ -6,18 +6,10 @@ namespace SocketExentd
 {
     public static class SocketWriteExention
     {
-        private static List<byte[]> cache=new List<byte[]>();
+         
+         
         
-        public static bool WriteInt(this Socket socket,int value)
-        {
-            var convertIntToByteArray = bytesUntils.ConvertIntToByteArray(value);
-            
-            cache.Add(convertIntToByteArray);
-
-            return true;
-        }
-        
-        public static  bool WriteAndFlush(this Socket socket,int value)
+        public static  bool WriteIntAndFlush(this Socket socket,int value)
         {
             var convertIntToByteArray = bytesUntils.ConvertIntToByteArray(value);
 
@@ -27,14 +19,7 @@ namespace SocketExentd
         }
         
         
-        public static bool WriteLong(this Socket socket,long value)
-        {
-            var convertIntToByteArray = bytesUntils.ConvertLongToByteArray(value);
-            
-            cache.Add(convertIntToByteArray);
-
-            return true;
-        }
+        
 
         public static bool WriteLongAndFlush(this Socket socket,int value)
         {
@@ -45,15 +30,7 @@ namespace SocketExentd
             return true;
         }
 
-        public static bool WriteByte(this Socket socket, byte val)
-        {
-            
-            cache.Add(new byte[]{val});
-            
-            
-            return true;
-            
-        }
+       
         
         public static bool WriteByteAndFlush(this Socket socket, byte val)
         {
@@ -63,17 +40,7 @@ namespace SocketExentd
             return true;
             
         }
-        
-        
-        public static bool WriteBytes(this Socket socket, byte[] val)
-        {
-            
-            cache.Add(val);
-            
-            
-            return true;
-            
-        }
+         
         
         public static bool WriteByteAndFlush(this Socket socket, byte[] val)
         {
@@ -82,15 +49,14 @@ namespace SocketExentd
             
         }
 
-        public static bool Flush(this Socket socket)
+        public static bool Write(this Socket socket, IByteBuf buf)
         {
-            foreach (var bytes in cache)
-            {
-                socket.Send(bytes);
-            }
-            cache=new List<byte[]>();
+            var bytes = buf.ToBytes();
+            socket.Send(bytes);
 
             return true;
         }
+
+      
     }
 }

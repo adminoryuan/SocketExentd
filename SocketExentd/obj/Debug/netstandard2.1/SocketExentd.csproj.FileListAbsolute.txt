@@ -1,0 +1,11 @@
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/bin/Debug/netstandard2.1/SocketExentd.deps.json
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/bin/Debug/netstandard2.1/SocketExentd.dll
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/bin/Debug/netstandard2.1/SocketExentd.pdb
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/bin/Debug/netstandard2.1/SocketExentd.xml
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.csprojAssemblyReference.cache
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.AssemblyInfoInputs.cache
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.AssemblyInfo.cs
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.csproj.CoreCompileInputs.cache
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.dll
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.xml
+/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/Debug/netstandard2.1/SocketExentd.pdb

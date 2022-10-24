@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/Example/Example.csproj",
+    "projectName": "Example",
+    "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/Example/Example.csproj",
+    "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/Example/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj": {
+            "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+    }
+  }
+}

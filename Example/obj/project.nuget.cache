@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qYBVg+CrLj0YMNzPoeshUiCI19ydnB1QGl0ABG1oS8RbG2OGS8OFCjt329WyyfJQoZ4As26b4GsocHPaIbpn7w==",
+  "success": true,
+  "projectFilePath": "/home/yh/笔记/rabbitmq/SocketExentd/Example/Example.csproj",
+  "expectedPackageFiles": [
+    "/home/yh/.nuget/packages/socketexentd/1.0.0/socketexentd.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

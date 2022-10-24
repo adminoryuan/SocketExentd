@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SocketExentd</name>
+    </assembly>
+    <members>
+        <member name="M:SocketExentd.ByteBuf.alloc(System.Int32)">
+            <summary>
+            创建一个指定大小的ByteBuf
+            </summary>
+            <param name="cap">最大容量</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:SocketExentd.bytesUntils.ConvertIntToByteArray(System.Int32)" -->
+        <member name="M:SocketExentd.bytesUntils.ConvertByteArrayToInt(System.Byte[])">
+            <summary>
+            把byte数组中的前4个字节转换为int32类型的数据
+            </summary>
+        </member>
+        <member name="M:Comon.SocketChanle.SocketReadExention.ReceiveInt(System.Net.Sockets.Socket)">
+            <summary>
+            读取一个int
+            </summary>
+            <param name="socket"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Comon.SocketChanle.SocketReadExention.ReceiveByte(System.Net.Sockets.Socket)">
+            读取一个字节
+        </member>
+        <member name="M:Comon.SocketChanle.SocketReadExention.ReceiveBytes(System.Net.Sockets.Socket,System.Int32)">
+            读取指定长度
+        </member>
+    </members>
+</doc>

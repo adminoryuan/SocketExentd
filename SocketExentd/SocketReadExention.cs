@@ -47,12 +47,18 @@ namespace Comon.SocketChanle
         /**
          * 读取指定长度
          */
-        public static byte[] ReceiveBytes(this Socket socket, int len)
+        public static ByteBuf ReceiveBytes(this Socket socket, int len)
         {
             var bytes = new byte[len];
 
             socket.Receive(bytes);
-            return bytes;
+
+
+            var byteBuf = ByteBuf.alloc(len);
+            
+            byteBuf.PutBytes(bytes);
+            
+            return byteBuf;
         }
         
         
