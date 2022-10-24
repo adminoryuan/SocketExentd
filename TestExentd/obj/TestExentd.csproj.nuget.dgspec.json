@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj": {}
+    "/home/yh/笔记/rabbitmq/SocketExentd/TestExentd/TestExentd.csproj": {}
   },
   "projects": {
-    "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj": {
+    "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj",
+        "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj",
         "projectName": "SocketExentd",
-        "projectPath": "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj",
+        "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj",
         "packagesPath": "/home/yh/.nuget/packages/",
-        "outputPath": "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/obj/",
+        "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "imports": [
             "net461",
             "net462",
@@ -48,7 +48,7 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj": {
+    "/home/yh/笔记/rabbitmq/SocketExentd/TestExentd/TestExentd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj",
+        "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/TestExentd/TestExentd.csproj",
         "projectName": "TestExentd",
-        "projectPath": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/TestExentd.csproj",
+        "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/TestExentd/TestExentd.csproj",
         "packagesPath": "/home/yh/.nuget/packages/",
-        "outputPath": "/home/yh/笔记/rabbitmq/EasyFrpc/TestExentd/obj/",
+        "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/TestExentd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/yh/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj": {
-                "projectPath": "/home/yh/笔记/rabbitmq/EasyFrpc/SocketExentd/SocketExentd.csproj"
+              "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj": {
+                "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj"
               }
             }
           }

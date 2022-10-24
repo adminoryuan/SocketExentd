@@ -55,6 +55,7 @@ namespace TestExentd
                 } 
             }));
         }
+
         public static async Task Main(string[] args)
         {
             TestUntils();
@@ -73,12 +74,9 @@ namespace TestExentd
             socket1.WriteLong(2);
             socket1.WriteByte(3);
             socket1.Flush();
-            
-            
-            socket1.WriteInt(4);
-            socket1.WriteLong(5);
-            socket1.WriteByte(7);
-            socket1.Flush();
+
+            socket1.WriteByteAndFlush(1);
+            socket1.WriteLongAndFlush(1);
 
 
         }

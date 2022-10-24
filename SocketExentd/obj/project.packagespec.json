@@ -7,13 +7,13 @@
     "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
-      "net50"
+      "netstandard2.1"
     ],
     "sources": {
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netcoreapp5.0": {
+      "netstandard2.1": {
         "projectReferences": {}
       }
     },
@@ -24,7 +24,7 @@
     }
   },
   "frameworks": {
-    "netcoreapp5.0": {
+    "netstandard2.1": {
       "imports": [
         "net461",
         "net462",
@@ -36,7 +36,7 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
-        "Microsoft.NETCore.App": {
+        "NETStandard.Library": {
           "privateAssets": "all"
         }
       },
