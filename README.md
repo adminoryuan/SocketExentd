@@ -19,21 +19,43 @@
   ```
   - 发送数据
   ```c#
-            socket1.WriteInt(1);
-            socket1.WriteLong(2);
-            socket1.WriteByte(3);
-            socket1.Flush();
+           var byteBuf = ByteBuf.alloc(1024);
             
+            byteBuf.PutInt(1);
+            byteBuf.PutLong(2);
+
+            byteBuf.PutByte(3);
+
             
-            socket1.WriteInt(4);
-            socket1.WriteLong(5);
-            socket1.WriteByte(7);
-            socket1.Flush();
-  ```
-  - 一次发送
-  ``` c#
-             socket1.WriteByteAndFlush(1);
+           socket1.Write(byteBuf);
+           
+               socket1.WriteByteAndFlush(1);
             socket1.WriteLongAndFlush(1);
   ```
-
+  - # bytebuf
+  - 获得bytebuf
+  ``` c#
+    var byteBuf = ByteBuf.alloc(1024);
+  ```
+  - 重置读写指针
+  ```c#
+      byteBuf.resetWriteIndex();
+      byteBuf.resetReaderIndex();
+  ```
+  - 添加数据获得数据
+  ```c#
+      byteBuf.PutInt(i);
+      
+      byteBuf.PutByte(i);
+      
+      byteBuf.PutLong(i);
+      
+      byteBuf.getInt();
+      
+      byteBuf.getLong()
+      
+      byteBuf.getByte();
+      
+      
+  ```
     
