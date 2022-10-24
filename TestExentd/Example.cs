@@ -8,7 +8,7 @@ using SocketExentd;
 
 namespace TestExentd
 {
-    public class Class1
+    public class TestExentd
     {
         public static void TestUntils()
         {
