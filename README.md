@@ -28,7 +28,7 @@
             
            socket1.Write(byteBuf);
            
-               socket1.WriteByteAndFlush(1);
+            socket1.WriteByteAndFlush(1);
             socket1.WriteLongAndFlush(1);
   ```
   - # bytebuf
