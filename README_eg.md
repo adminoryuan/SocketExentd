@@ -2,13 +2,14 @@
   - # [中文](https://github.com/adminoryuan/SharpSocketExentd/blob/master/README.md)
   
   - # Why do I need it？
-  - When we use sockets to write network applications, we cannot directly read an int byte long and other basic types. '` ` SharpSocketExited' ` ` extends this. We can easily solve the problem of package sticking and unpacking with the help of '` ` SocketExited' '.
+  - When we use sockets to write network applications, we cannot directly read an int byte long and other basic types. ``` SharpSocketExited``` extends this. We can easily solve the problem of package sticking and unpacking with the help of ``` SocketExited ```.
   
   - # How to use？
-  -  nuget install  ```SocketExentd ```
+  -  nuget install  ``` SocketExentd ```
   - ``` dotnet add package SocketExentd --version 1.0.1 ```
   - # Example
-  - complete example  [example](https://github.com/adminoryuan/SharpSocketExentd/blob/master/TestExentd/Example.cs)
+  - 
+  - complete example  [example](https://github.com/adminoryuan/SharpSocketExentd/blob/master/Example/Example.cs)
   
   - receive..
   ``` c# 
