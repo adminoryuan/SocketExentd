@@ -1,4 +1,4 @@
-# SharpSocketExentd ![c#](https://img.shields.io/badge/c%23-8.0-red) ![netstandard2.1](https://img.shields.io/badge/netstandard-2.1-blue)![Mit](https://img.shields.io/badge/Mit-Passing-yellow) 
+# SharpSocketExentd ![c#](https://img.shields.io/badge/c%23-8.0-red) ![netstandard2.1](https://img.shields.io/badge/netstandard-2.1-blue) ![Mit](https://img.shields.io/badge/Mit-Passing-yellow) 
   
   - [English](https://github.com/adminoryuan/SharpSocketExentd/blob/master/README_eg.md)
   - # 为什么需要它？
