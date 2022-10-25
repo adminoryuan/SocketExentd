@@ -11,7 +11,7 @@
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
-          "SocketExentd": "1.0.0"
+          "SocketExentd": "1.0.1"
         },
         "runtime": {
           "TestProject1.dll": {}
@@ -866,7 +866,7 @@
           }
         }
       },
-      "SocketExentd/1.0.0": {
+      "SocketExentd/1.0.1": {
         "runtime": {
           "SocketExentd.dll": {}
         }
@@ -1320,7 +1320,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "SocketExentd/1.0.0": {
+    "SocketExentd/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
