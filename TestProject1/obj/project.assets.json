@@ -1226,7 +1226,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "SocketExentd/1.0.0": {
+      "SocketExentd/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -4624,7 +4624,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "SocketExentd/1.0.0": {
+    "SocketExentd/1.0.1": {
       "type": "project",
       "path": "../SocketExentd/SocketExentd.csproj",
       "msbuildProject": "../SocketExentd/SocketExentd.csproj"
@@ -4635,7 +4635,7 @@
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1",
-      "SocketExentd >= 1.0.0"
+      "SocketExentd >= 1.0.1"
     ]
   },
   "packageFolders": {

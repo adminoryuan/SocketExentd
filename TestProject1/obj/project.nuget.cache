@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zezb4tCD250mrCmgmCEFD+rW/EggbGZgMzbEYSRc6UJcxWwdVEP+u4qR8qKIfWHgKpP+XY1Xl5fhuTUDRNehjw==",
+  "dgSpecHash": "/i9+Kl2jaF6QmMzDwf0SCzcblPIULQouvf/4iM7un51Z3QTrrdyjoPTsSRNuLH0FJONklso+O5/eVE73ta27sw==",
   "success": true,
   "projectFilePath": "/home/yh/笔记/rabbitmq/SocketExentd/TestProject1/TestProject1.csproj",
   "expectedPackageFiles": [
@@ -66,8 +66,7 @@
     "/home/yh/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
     "/home/yh/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/yh/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/home/yh/.nuget/packages/system.xml.xpath.xmldocument/4.3.0/system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
-    "/home/yh/.nuget/packages/socketexentd/1.0.0/socketexentd.1.0.0.nupkg.sha512"
+    "/home/yh/.nuget/packages/system.xml.xpath.xmldocument/4.3.0/system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

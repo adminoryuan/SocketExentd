@@ -58,11 +58,11 @@ namespace TestExentd
             }));
         }
 
-        public static async Task Main(string[] args)
+        public static  void Main(string[] args)
         {
                 
 
-            Server(); 
+           Server(); 
             
              
             Socket socket1=new Socket(AddressFamily.InterNetwork, 

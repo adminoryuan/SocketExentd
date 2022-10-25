@@ -11,7 +11,7 @@
     "/home/yh/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/SocketExentd/SocketExentd.csproj",
       "projectName": "SocketExentd",

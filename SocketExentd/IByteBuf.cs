@@ -4,11 +4,8 @@ namespace SocketExentd
     {
 
          bool PutLong(long value);
-
-
+         
          bool PutByte(byte val);
-
-
          bool PutBytes(byte[] bytes);
 
          byte[] ToBytes();
@@ -18,8 +15,7 @@ namespace SocketExentd
          long getLong();
         
          int getByte();
-
-
+         
          int capacity();
 
          int readerIndex();

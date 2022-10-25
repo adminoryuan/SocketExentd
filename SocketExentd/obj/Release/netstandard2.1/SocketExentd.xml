@@ -4,6 +4,13 @@
         <name>SocketExentd</name>
     </assembly>
     <members>
+        <member name="M:SocketExentd.ByteBuf.alloc(System.Int32)">
+            <summary>
+            创建一个指定大小的ByteBuf
+            </summary>
+            <param name="cap">最大容量</param>
+            <returns></returns>
+        </member>
         <!-- Badly formed XML comment ignored for member "M:SocketExentd.bytesUntils.ConvertIntToByteArray(System.Int32)" -->
         <member name="M:SocketExentd.bytesUntils.ConvertByteArrayToInt(System.Byte[])">
             <summary>

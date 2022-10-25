@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "SocketExentd/1.0.0": {
+      "SocketExentd/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "SocketExentd/1.0.0": {
+    "SocketExentd/1.0.1": {
       "type": "project",
       "path": "../SocketExentd/SocketExentd.csproj",
       "msbuildProject": "../SocketExentd/SocketExentd.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "SocketExentd >= 1.0.0"
+      "SocketExentd >= 1.0.1"
     ]
   },
   "packageFolders": {
