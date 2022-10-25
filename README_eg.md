@@ -1,5 +1,5 @@
 # SharpSocketExentd ![c#](https://img.shields.io/badge/c%23-8.0-red) ![netstandard2.1](https://img.shields.io/badge/netstandard-2.1-blue)
-  - # [中文](https://github.com/adminoryuan/SharpSocketExentd/edit/master/README.md)
+  - # [中文](https://github.com/adminoryuan/SharpSocketExentd/blob/master/README.md)
   
   - # Why do I need it？
   - When we use sockets to write network applications, we cannot directly read an int byte long and other basic types. '` ` SharpSocketExited' ` ` extends this. We can easily solve the problem of package sticking and unpacking with the help of '` ` SocketExited' '.
