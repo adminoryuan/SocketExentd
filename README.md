@@ -9,7 +9,7 @@
   - ``` dotnet add package SocketExentd --version 1.0.1 ```
   - # Example
   - 完整example 查看 [example]( https://github.com/adminoryuan/SharpSocketExentd/blob/master/Example/Example.cs)
- 
+  - 完整单元测试 查看 [Test]( https://github.com/adminoryuan/SharpSocketExentd/blob/master/Test)
   - 接收数据
   ``` c# 
             var n = accept.ReceiveInt();
