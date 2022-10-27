@@ -51,9 +51,9 @@
       
       byteBuf.getInt();
       
-      byteBuf.getLong()
-      
       byteBuf.getByte();
+      byteBuf.getLong();
+      
       
       
   ```
