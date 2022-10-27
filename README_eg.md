@@ -44,7 +44,7 @@
   ```
   - add data or get data 
   ```c#
-      byteBuf.PutInt(i);
+       byteBuf.PutInt(i);
       
       byteBuf.PutByte(i);
       
@@ -52,9 +52,8 @@
       
       byteBuf.getInt();
       
-      byteBuf.getLong()
-      
       byteBuf.getByte();
+      byteBuf.getLong();
       
       
   ```
