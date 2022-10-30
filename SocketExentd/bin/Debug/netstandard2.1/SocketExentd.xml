@@ -11,11 +11,39 @@
             <param name="cap">最大容量</param>
             <returns></returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:SocketExentd.bytesUntils.ConvertIntToByteArray(System.Int32)" -->
-        <member name="M:SocketExentd.bytesUntils.ConvertByteArrayToInt(System.Byte[])">
+        <member name="M:SocketExentd.IByteBuf.PutLong(System.Int64)">
             <summary>
-            把byte数组中的前4个字节转换为int32类型的数据
+            添加一个Long类型数据
             </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocketExentd.IByteBuf.PutByte(System.Byte)">
+            <summary>
+            添加一个byte类型数据
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocketExentd.IByteBuf.PutBytes(System.Byte[])">
+            <summary>
+            添加一个byte[]类型数据
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocketExentd.IByteBuf.PutDouble(System.Double)">
+            <summary>
+            添加一个Double类型数据
+            </summary>
+            <param name="bolVal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SocketExentd.IByteBuf.ToBytes">
+            <summary>
+            获得byte数组
+            </summary>
+            <returns></returns>
         </member>
         <member name="M:Comon.SocketChanle.SocketReadExention.ReceiveInt(System.Net.Sockets.Socket)">
             <summary>

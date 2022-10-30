@@ -49,7 +49,20 @@ namespace TestProject1
                 Assert.True(byteBuf.getLong() == i);
 
             }
+            
+            byteBuf.resetWriteIndex();
+            byteBuf.resetReaderIndex();
+            
+            for (long i = 0; i < 1000; i++)
+            {
+                byteBuf.PutDouble(i*1.0);
+
+                Assert.True(byteBuf.getDouble() == i*1.0);
+
+            }
 
         }
+        
+        
     }
 }

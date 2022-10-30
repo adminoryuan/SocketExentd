@@ -1,3 +1,4 @@
+using System;
 using System.Net.Sockets;
 using SocketExentd;
 
@@ -18,14 +19,14 @@ namespace Comon.SocketChanle
             socket.Receive(bytes);
             
             ReadIndex += 4;
-            return bytesUntils.ConvertByteArrayToInt(bytes);
+            return BitConverter.ToInt32(bytes);
         }
             
         public static long ReceiveLong(this Socket socket)
         {
             var longByte = new byte[8];
             socket.Receive(longByte);
-            return bytesUntils.ConvertByteArrayToLong(longByte);
+            return BitConverter.ToInt64(longByte);
         }
         
         public static int getReadIndex(this Socket socket)

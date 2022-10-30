@@ -34,7 +34,7 @@ namespace SocketExentd
         public bool PutInt(int value)
         {
             
-            var array = bytesUntils.ConvertIntToByteArray(value);
+            var array = BitConverter.GetBytes(value);
             if (isOutIndex(array.Length,Writeindex))
                 return false;
             
@@ -44,7 +44,7 @@ namespace SocketExentd
         
         public bool PutLong(long value)
         {    
-            var array = bytesUntils.ConvertLongToByteArray(value);
+            var array = BitConverter.GetBytes(value);
 
             if (isOutIndex(array.Length,Writeindex))
                 return false;
@@ -77,6 +77,23 @@ namespace SocketExentd
             return true;
         }
 
+        public bool PutDouble(double bolVal)
+        {
+            var conventDoubleToArray =  BitConverter.GetBytes(bolVal);
+            
+            Writeindex= body.PutRange(conventDoubleToArray,Writeindex);
+
+            return true;
+
+        }
+
+        public double getDouble()
+        {
+            var range = body.getRange(Readindex,8);
+            Readindex += 8;
+            return BitConverter.ToDouble(range); 
+        }
+
         public byte[] ToBytes()
         {
             return body.Take(Writeindex).ToArray();
@@ -87,15 +104,15 @@ namespace SocketExentd
             
             var range = body.getRange(Readindex,4);
             Readindex += 4;
-            return bytesUntils.ConvertByteArrayToInt(range);
+            return BitConverter.ToInt32(range);
         }
 
         public long getLong()
         {    
             var range = body.getRange(Readindex,8);
             Readindex += 8;
- 
-            return bytesUntils.ConvertByteArrayToLong(range);        
+
+            return BitConverter.ToInt64(range);
         }
         
         public int getByte()

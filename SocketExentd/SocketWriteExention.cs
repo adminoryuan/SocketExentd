@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
 using Comon;
@@ -11,7 +12,7 @@ namespace SocketExentd
         
         public static  bool WriteIntAndFlush(this Socket socket,int value)
         {
-            var convertIntToByteArray = bytesUntils.ConvertIntToByteArray(value);
+            var convertIntToByteArray = BitConverter.GetBytes(value);
 
             socket.Send(convertIntToByteArray);
 
@@ -23,7 +24,7 @@ namespace SocketExentd
 
         public static bool WriteLongAndFlush(this Socket socket,int value)
         {
-            var convertIntToByteArray = bytesUntils.ConvertIntToByteArray(value);
+            var convertIntToByteArray = BitConverter.GetBytes(value);
 
             socket.Send(convertIntToByteArray);
 
