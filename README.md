@@ -37,6 +37,7 @@
     var byteBuf = ByteBuf.alloc(1024);
   ```
   - 重置读写指针
+  - byteBuf 是根据读写指针来进行读取和添加数据的,如果想多次读取相同的数据或覆盖数据，我们需要重置读写
   ```c#
       byteBuf.resetWriteIndex();
       byteBuf.resetReaderIndex();
