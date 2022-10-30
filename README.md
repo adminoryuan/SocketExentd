@@ -47,14 +47,13 @@
       
       byteBuf.PutByte(i);
       
+      
       byteBuf.PutLong(i);
       
+      //根据添加顺序获得数据
       byteBuf.getInt();
-      
       byteBuf.getByte();
       byteBuf.getLong();
-      
-      
-      
+       
   ```
     
