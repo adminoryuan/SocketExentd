@@ -10,29 +10,6 @@ namespace TestExentd
 {
     public class TestExentd
     {
-        public static void TestUntils()
-        {
-            for (int i = 0; i < 100000; i++)
-            {    
-                var convertByteArrayToInt = bytesUntils.ConvertIntToByteArray(i);
-
-                var ToInt = bytesUntils.ConvertByteArrayToInt(convertByteArrayToInt);
-
-                if(i != ToInt) throw new Exception("测试未通过");
-
-            }
-
-            for (long i = 0; i < 100000; i++)
-            {
-                           
-                var bytes = bytesUntils.ConvertLongToByteArray(i);
-
-                var ToLong = bytesUntils.ConvertByteArrayToLong(bytes);
-
-                if(i != ToLong) throw new Exception("测试未通过");
-            }
-        }
-
       
         public static async void Server()
         {

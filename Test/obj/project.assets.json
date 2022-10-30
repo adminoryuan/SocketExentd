@@ -4644,11 +4644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/TestProject1/TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/TestProject1/TestProject1.csproj",
+      "projectUniqueName": "/home/yh/笔记/rabbitmq/SocketExentd/Test/Test.csproj",
+      "projectName": "Test",
+      "projectPath": "/home/yh/笔记/rabbitmq/SocketExentd/Test/Test.csproj",
       "packagesPath": "/home/yh/.nuget/packages/",
-      "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/TestProject1/obj/",
+      "outputPath": "/home/yh/笔记/rabbitmq/SocketExentd/Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yh/.nuget/NuGet/NuGet.Config"

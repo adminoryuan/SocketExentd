@@ -20,7 +20,7 @@ namespace Comon.SocketChanle
             ReadIndex += 4;
             return bytesUntils.ConvertByteArrayToInt(bytes);
         }
-
+            
         public static long ReceiveLong(this Socket socket)
         {
             var longByte = new byte[8];

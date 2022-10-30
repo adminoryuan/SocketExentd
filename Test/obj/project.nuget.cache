@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/i9+Kl2jaF6QmMzDwf0SCzcblPIULQouvf/4iM7un51Z3QTrrdyjoPTsSRNuLH0FJONklso+O5/eVE73ta27sw==",
+  "dgSpecHash": "GiK78EhUh/iP1auhM580MWFACe1gB5VLCxe5DPCG7Jm/ckr3wexGhgcW6DL3Ay3fq2LGSOmKmvhOT+4KAINTXA==",
   "success": true,
-  "projectFilePath": "/home/yh/笔记/rabbitmq/SocketExentd/TestProject1/TestProject1.csproj",
+  "projectFilePath": "/home/yh/笔记/rabbitmq/SocketExentd/Test/Test.csproj",
   "expectedPackageFiles": [
     "/home/yh/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/home/yh/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
