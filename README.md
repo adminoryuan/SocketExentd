@@ -42,19 +42,17 @@
       byteBuf.resetWriteIndex();
       byteBuf.resetReaderIndex();
   ```
-  - 添加数据获得数据
+  - 添加数据获得数据指针变化
   ```c#
-      byteBuf.PutInt(i);
-      
-      byteBuf.PutByte(i);
-      
-      
-      byteBuf.PutLong(i);
+      //添加数据
+      byteBuf.PutInt(i); //WriteIndex=4
+      byteBuf.PutByte(i); //WriteIndex=5
+      byteBuf.PutLong(i);//WriteIndex=13
       
       //根据添加顺序获得数据
-      byteBuf.getInt();
-      byteBuf.getByte();
-      byteBuf.getLong();
+      byteBuf.getInt(); //ReaderIndex=4
+      byteBuf.getByte();//ReaderIndex=5
+      byteBuf.getLong();//ReaderIndex=13
        
   ```
     
